@@ -11,36 +11,35 @@
 * Orange (Accent):  #EE6C4D
 */
 :root {
-    --bs-info: #98C1D9
+    --bs-info: #98c1d9;
 }
 .bg-warning {
-    background-color: #98C1D9 !important; /* Light blue for secondary backgrounds */
+    background-color: #98c1d9 !important; /* Light blue for secondary backgrounds */
 }
 
-.navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link {
     color: #293241; /* Dark blue for brand name & nav links for visibility */
 }
 
 .btn-outline-success {
-    color: #293241;            /* Dark blue shade for text on info button for contrast */
-    background-color: #98C1D9; /* Light blue for button background */
-    border-color: #293241;     /* Dark blue for button border */
+    color: #293241; /* Dark blue shade for text on info button for contrast */
+    background-color: #98c1d9; /* Light blue for button background */
+    border-color: #293241; /* Dark blue for button border */
 }
 
 .btn-primary {
-    color: #e0fbfc;            /* Lightest shade for text */
+    color: #e0fbfc; /* Lightest shade for text */
     font-size: 150%;
     background-color: #293241; /* Dark blue for primary button background */
-    border-color: #EE6C4D;     /* orange for border to use as accent */
+    border-color: #ee6c4d; /* orange for border to use as accent */
     border-width: thick;
 }
 
 .navbar-brand {
-    font-family: 'Caveat', cursive;
+    font-family: "Caveat", cursive;
 }
-
 
 body {
     background-color: #e0fbfc; /* Lightest shade for body background to follow the 60% rule */
 }
-```
